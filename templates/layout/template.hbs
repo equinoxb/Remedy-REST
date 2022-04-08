@@ -1,0 +1,50 @@
+{{#each this.TAC}}
+{{#if CallIdTAC}}
+{{CallIdTAC}}@internal.tac.amt.ru {{> test}}
+{{CallIdTAC}}@external.tac.amt.ru {{> test1}}
+{{CallIdTAC}}@info.tac.amt.ru {{> test2}}
+
+{{else}}
+{{/if}}
+{{#if CaseIdTAC}}
+{{CaseIdTAC}}@internal.tac.amt.ru
+{{CaseIdTAC}}@external.tac.amt.ru
+{{CaseIdTAC}}@info.tac.amt.ru
+
+{{else}}
+{{/if}}
+{{/each}}
+{{#each this.RMA}}
+{{#if CallIdRMA}}
+{{CallIdRMA}}@internal.tac.amt.ru
+{{CallIdRMA}}@external.tac.amt.ru
+{{CallIdRMA}}@info.tac.amt.ru
+
+{{else}}
+{{/if}}
+{{#if CaseIdRMA}}
+{{CaseIdRMA}}@internal.tac.amt.ru
+{{CaseIdRMA}}@external.tac.amt.ru
+{{CaseIdRMA}}@info.tac.amt.ru
+
+{{else}}
+{{/if}}
+{{/each}}
+{{#each this.Vendor}}
+{{#if RequestIdVendor}}
+{{RequestIdVendor}}@internal.tac.amt.ru
+{{RequestIdVendor}}@external.tac.amt.ru
+{{RequestIdVendor}}@info.tac.amt.ru
+
+{{else}}
+{{/if}}
+{{/each}}
+{{#each this.Onsite}}
+{{#if TASKIdOnsite}}
+{{TASKIdOnsite}}@internal.tac.amt.ru
+{{TASKIdOnsite}}@external.tac.amt.ru
+{{TASKIdOnsite}}@info.tac.amt.ru
+
+{{else}}
+{{/if}}
+{{/each}}

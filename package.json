@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "safestart": "node --experimental-modules app.js"
+  },
+  "keywords": [],
+  "author": "Dmitry Andreev",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "fs": "^0.0.1-security",
+    "handlebars": "^4.7.7",
+    "handlebars-helper-include": "^0.2.0",
+    "log4js": "^6.3.0",
+    "path": "^0.12.7",
+    "request-promise": "^4.2.6",
+    "url": "^0.11.0"
+  }
+}
