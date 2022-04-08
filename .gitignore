@@ -1,4 +1,5 @@
-/.env
-/test.txt
-/node_modules
-/logs/app.log
+.env
+test.txt
+node_modules/
+logs/*.log
+package-lock.json
