@@ -1,3 +1,4 @@
 /.env
 /test.txt
-/.node_modules
+/node_modules
+/logs/app.log

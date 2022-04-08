@@ -26359,3 +26359,6 @@
 [2022-02-09T20:55:01.351] [INFO] default - Data added to the array
 [2022-02-09T20:55:01.618] [INFO] default - Data write to the file C:\Users\dandreev\Desktop\Куликова\test\test.txt
 [2022-02-09T20:55:01.647] [INFO] default - Logout. Status Code: 204 No Content
+[2022-04-08T19:23:48.174] [ERROR] default - Произошла ошибка: RequestError: Error: certificate has expired
+[2022-04-08T19:28:04.622] [ERROR] default - Произошла ошибка: RequestError: Error: getaddrinfo ENOTFOUND msk-tst-rem9.amt.ru
+[2022-04-08T19:28:13.698] [ERROR] default - Произошла ошибка: RequestError: Error: getaddrinfo ENOTFOUND msk-tst-rem9.amt.ru
